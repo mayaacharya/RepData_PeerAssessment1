@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "Activity Monitoring Project"
 author: "Maya Acharya"
 date: "November 10, 2014"
@@ -86,31 +85,4 @@ colnames(dayActivity) <- c("interval", "day", "steps")
 xyplot(steps ~ interval | day, col="#68ab98", type="l", layout=c(1,2), data=dayActivity)
 ```
   
-    
-There is a clearly visible difference between the **steps** data for weekends and for weekdays. On weekends, the steps taken between the $500^{th}$ and $2000^{th}$ time intervals are consistently higher than the other time intervals. On weekdays, there is a sizeable spike from the $500^{th}$ to the $1000^{th}$ time interval.
-=======
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
-
-
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
->>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
+The the **steps** data for weekends and for weekdays are clearly different. On weekends, the steps taken between the $500^{th}$ and $2000^{th}$ time intervals are consistently higher than the other time intervals. On weekdays, there is a sizeable spike from the $500^{th}$ to the $1000^{th}$ time interval.

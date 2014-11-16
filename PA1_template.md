@@ -118,5 +118,4 @@ xyplot(steps ~ interval | day, col="#68ab98", type="l", layout=c(1,2), data=dayA
 
 ![plot of chunk weekdays](figure/weekdays-1.png) 
   
-    
-There is a clearly visible difference between the **steps** data for weekends and for weekdays. On weekends, the steps taken between the $500^{th}$ and $2000^{th}$ time intervals are consistently higher than the other time intervals. On weekdays, there is a sizeable spike from the $500^{th}$ to the $1000^{th}$ time interval.
+The the **steps** data for weekends and for weekdays are clearly different. On weekends, the steps taken between the $500^{th}$ and $2000^{th}$ time intervals are consistently higher than the other time intervals. On weekdays, there is a sizeable spike from the $500^{th}$ to the $1000^{th}$ time interval.
